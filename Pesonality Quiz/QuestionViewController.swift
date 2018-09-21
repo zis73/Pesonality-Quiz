@@ -45,14 +45,28 @@ class QuestionViewController: UIViewController {
     navigationItem.title = "Вопрос № \(questionIndex + 1)"
         
     let currentQuestion = questions[questionIndex]
+    let currentAnswers = currentQuestion.answers
+        let totalProgress = Float(questionIndex) / Float(questions.count)
+        
+        questionLabel.text = currentQuestion.text
+        questionProgressView.setProgress(totalProgress, animated: true)
         
         switch currentQuestion.type {
         case .single:
-            singleStackView.isHidden = false
+            updateSingleStack(using: currentAnswers)
         case .multiple:
-            multipleStackView.isHidden = false
+            updateMultipleStack(using: currentAnswers)
         case .ranged:
-            rangedStackView.isHidden = false
+            updateRangeStack(using: currentAnswers)
         }
+    }
+    func updateSingleStack(using answers: [Answer]) {
+        singleStackView.isHidden = false
+    }
+    func updateMultipleStack(using answers: [Answer]) {
+        multipleStackView.isHidden = false
+    }
+    func updateRangeStack(using answers: [Answer]) {
+        rangedStackView.isHidden = false
     }
 }
