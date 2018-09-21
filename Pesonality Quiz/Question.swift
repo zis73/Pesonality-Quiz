@@ -37,7 +37,7 @@ enum AnimalType: Character{
         }
     }
 }
-var question: [Question] = [
+var questions: [Question] = [
     Question(text: "Какая пища вам нравится?",
              type: .single,
              answers: [
