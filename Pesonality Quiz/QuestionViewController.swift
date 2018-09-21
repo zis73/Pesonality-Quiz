@@ -9,7 +9,7 @@
 import UIKit
 
 class QuestionViewController: UIViewController {
-    var questionIndex = 0
+    var questionIndex = 2
 
     @IBOutlet weak var questionLabel: UILabel!
     
