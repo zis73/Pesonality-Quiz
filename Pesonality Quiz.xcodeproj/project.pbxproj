@@ -14,6 +14,7 @@
 		3F5508302150ED6500F8FEA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F55082E2150ED6500F8FEA6 /* LaunchScreen.storyboard */; };
 		3F5508382150FF7800F8FEA6 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5508372150FF7800F8FEA6 /* QuestionViewController.swift */; };
 		3F55083A2150FF9D00F8FEA6 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5508392150FF9D00F8FEA6 /* QuizViewController.swift */; };
+		3FDBB7FF2154F389007FD165 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBB7FE2154F389007FD165 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3F5508312150ED6500F8FEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F5508372150FF7800F8FEA6 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		3F5508392150FF9D00F8FEA6 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		3FDBB7FE2154F389007FD165 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				3F5508392150FF9D00F8FEA6 /* QuizViewController.swift */,
 				3F5508372150FF7800F8FEA6 /* QuestionViewController.swift */,
 				3F5508272150ED6300F8FEA6 /* IntroViewController.swift */,
+				3FDBB7FE2154F389007FD165 /* Question.swift */,
 				3F5508292150ED6300F8FEA6 /* Main.storyboard */,
 				3F55082C2150ED6500F8FEA6 /* Assets.xcassets */,
 				3F55082E2150ED6500F8FEA6 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDBB7FF2154F389007FD165 /* Question.swift in Sources */,
 				3F5508282150ED6300F8FEA6 /* IntroViewController.swift in Sources */,
 				3F5508262150ED6300F8FEA6 /* AppDelegate.swift in Sources */,
 				3F5508382150FF7800F8FEA6 /* QuestionViewController.swift in Sources */,
