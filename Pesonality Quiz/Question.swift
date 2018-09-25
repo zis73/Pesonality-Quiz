@@ -54,6 +54,14 @@ var questions: [Question] = [
                 Answer(text: "Обниматься", type: .rabbit),
                 Answer(text: "Плавать", type: .turtle)
         ]),
+    Question(text: "C кем вы любите проводить время?",
+             type: .multiple,
+             answers: [
+                Answer(text: "С друзьями", type: .cat),
+                Answer(text: "С семьей", type: .rabbit),
+                Answer(text: "Один", type: .turtle),
+                Answer(text: "С вечностью", type: .dog)
+        ]),
     Question(text: "Насколько вы любите поездки на машине?",
              type: .ranged,
              answers: [
@@ -62,4 +70,5 @@ var questions: [Question] = [
                 Answer(text: "Не замечаю", type: .turtle),
                 Answer(text: "Обожаю", type: .dog)
         ])
+    
 ]
